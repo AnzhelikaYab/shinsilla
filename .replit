@@ -1,0 +1,9 @@
+run = "python3 main.py"
+entrypoint = "main.py"
+language = "python3"
+
+[env]
+PORT = "8080"
+
+[deployment]
+run = ["python3", "main.py"]
